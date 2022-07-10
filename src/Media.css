@@ -1,0 +1,30 @@
+h3 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: rgb(12, 12, 12);
+  }
+  h5{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(12, 12, 12);
+    font-weight: 200;
+  }
+  .app-container {
+    width: 543px;
+    padding: 0 10px;
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(240, 239, 239, 0.479);
+    margin-top: 30%;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+  }
+  .reload{
+    color: black;
+  }
