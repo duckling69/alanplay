@@ -1,11 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './styles/tailwind.css';
-import './styles/index.css'
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import React from "react";
+import Login from "./components/Login";
+import DashBoard from "./components/DashBoard";
+import "bootstrap/dist/css/bootstrap.min.css"
+
+
+const code = new URLSearchParams(window.location.search).get("code")
+
+function App() {
+  
+  return (
+    code ? <DashBoard code={code} /> : <Login />
+  );
+}
+
+export default App;
