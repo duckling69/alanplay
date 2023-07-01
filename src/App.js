@@ -8,7 +8,7 @@ const code = new URLSearchParams(window.location.search).get("code")
 function App() {
   
   return (
-    code ? <DashBoard code={code} /> : <Login />
+    code ? <DashBoard code={code} /> : <Login /> 
   );
 }
 
