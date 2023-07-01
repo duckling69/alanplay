@@ -1,0 +1,27 @@
+.control-panel {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .timer {
+    font-size: 10px;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+  }
+  .like{
+    padding: 5px;
+    font-size: medium;
+    color: #000;
+    cursor: pointer;
+  
+  }
+  .liked{
+    padding: 5px;
+    font-size: medium;
+    
+    cursor: pointer;
+    color: rgb(231, 182, 18);
+    
+  }
